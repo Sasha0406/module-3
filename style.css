@@ -1,0 +1,71 @@
+body {
+  background-color: white;
+}
+li {
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 90px;
+  font-family: 'PlayfairDisplay';
+  color: #626262;
+}
+
+.LIFESTYLE:hover {
+  color: #03a9f4;
+}
+.LIFESTYLE {
+  padding-left: 168px;
+  margin-right: 125px;
+}
+.PHOTODIARY {
+  margin-right: 105px;
+}
+.MUSIC {
+  margin-right: 81px;
+}
+.TRAVEL {
+  margin-right: 0px;
+}
+.signature-picture {
+  font-size: 14px;
+  font-family: 'Ubuntu';
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 30px 0 24px 0;
+  color: #b4ad9e;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 28px;
+  font-family: 'PlayfairDisplay';
+  color: #626262;
+}
+.the-main-text-bottom,
+.the-main-text {
+  font-size: 14px;
+  font-family: 'Ubuntu';
+  line-height: 24px;
+  text-align: left;
+  color: #626262;
+}
+.the-main-text {
+  margin-bottom: 119px;
+}
+div {
+  display: inline-block;
+  width: 420px;
+  margin: 0 61px 0 0;
+}
+input {
+  font-size: 20px;
+  font-family: 'Ubuntu';
+  background-color: #ffffff;
+  color: #626262;
+  outline-color: #626262;
+  padding: 12px 36px;
+  border: 1px solid;
+  border-radius: 1px;
+}
+.load-more {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,71 +1,74 @@
-body {
-  background-color: white;
-}
-li {
-  display: inline-block;
-  font-size: 14px;
-  margin-bottom: 90px;
-  font-family: 'PlayfairDisplay';
+body,
+p,
+button {
+  font-family: 'Playfair Display', serif;
+  font-style: 14px;
+  font-weight: 400px;
+  line-height: 24px;
   color: #626262;
 }
-
-.LIFESTYLE:hover {
+a {
+  text-decoration: none;
+  color: #626262;
+}
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+.navigation ul {
+  text-align: center;
+}
+.navigation li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 75px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+.navigation li:last-child {
+  margin-right: 0;
+}
+.navigation li:first-child a:hover {
   color: #03a9f4;
 }
-.LIFESTYLE {
-  padding-left: 168px;
-  margin-right: 125px;
+.posts-wrap {
+  font-size: 0;
 }
-.PHOTODIARY {
-  margin-right: 105px;
-}
-.MUSIC {
-  margin-right: 81px;
-}
-.TRAVEL {
-  margin-right: 0px;
-}
-.signature-picture {
-  font-size: 14px;
-  font-family: 'Ubuntu';
-  text-transform: uppercase;
-  line-height: 1.2;
-  margin: 30px 0 24px 0;
-  color: #b4ad9e;
-}
-h2 {
-  font-size: 30px;
-  margin-bottom: 28px;
-  font-family: 'PlayfairDisplay';
-  color: #626262;
-}
-.the-main-text-bottom,
-.the-main-text {
-  font-size: 14px;
-  font-family: 'Ubuntu';
-  line-height: 24px;
-  text-align: left;
-  color: #626262;
-}
-.the-main-text {
-  margin-bottom: 119px;
-}
-div {
+.post {
   display: inline-block;
   width: 420px;
-  margin: 0 61px 0 0;
+  font-size: 14px;
+  margin-right: 60px;
+  margin-bottom: 130px;
 }
-input {
-  font-size: 20px;
-  font-family: 'Ubuntu';
-  background-color: #ffffff;
-  color: #626262;
-  outline-color: #626262;
-  padding: 12px 36px;
-  border: 1px solid;
-  border-radius: 1px;
+.post:nth-child(even) {
+  margin-right: 0;
 }
-.load-more {
+.post:nth-last-child(-n + 2) {
+  margin-bottom: 55px;
+}
+.post img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.post .category {
+  font: 300 14px 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  margin-top: 26px;
+  margin-bottom: 30px;
+}
+.post h3 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.btn-more {
   display: block;
   margin: 0 auto;
+  font-size: 20px;
+  border: 1px solid;
+  padding: 20px 35px;
+  margin-bottom: 75px;
+  background-color: #ffffff;
 }
